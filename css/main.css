@@ -1,7 +1,8 @@
 /* font-family: 'Raleway', sans-serif;
 font-family: 'Open Sans', sans-serif;*/
 {
-    box-sizing: border-box;
+    box-sizing: border-box
+;
 }
 
 .section {
@@ -34,12 +35,10 @@ font-family: 'Open Sans', sans-serif;*/
 
 .columm {
     width: 33.3%;
-    margin-right: 10px;
-    margin-left: 10px;
 
 }
 
-.main .process-main {
+.process-main .columm {
     padding: 0 15px;
 }
 
@@ -49,8 +48,7 @@ font-family: 'Open Sans', sans-serif;*/
 
 .title-section h3 {
     font: 36px 'Raleway', sans-serif;
-      color: #212121;
-
+    color: #212121;
 }
 
 .title-section h3:after {
@@ -72,18 +70,24 @@ font-family: 'Open Sans', sans-serif;*/
     height: 70px;
     border: 2px solid #ff8b38;
     margin: auto;
+    border-radius: 50%;
+    color: #ff8b38;
+    font-size: 32px;
+    display: flex;
 
+}
+
+.process-main .icon i {
+    margin: auto
 }
 
 .process-main h4 {
-    font: 20px'Open Sans', sans-serif;
-        color: #333333;
+    font: 700 20px 'Open Sans', sans-serif;
+    color: #333333;
 }
-
 
 .process-main p {
     font: 14px/1.4 'Open Sans', sans-serif;
-
     color: #86878b;
 }
 
