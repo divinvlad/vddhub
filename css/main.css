@@ -1,12 +1,13 @@
 /* font-family: 'Raleway', sans-serif;
 font-family: 'Open Sans', sans-serif;*/
 {
-    box-sizing: border-box
-;
+    box-sizing: border-box ;
 }
-
+//*WHY THIS IS AWESOME*//
 .section {
-    padding: 10px 0 95px;
+    padding:  0; //*body*//
+
+
 }
 
 .section.bg-gray {
@@ -23,7 +24,7 @@ font-family: 'Open Sans', sans-serif;*/
     padding: 0 15px;
     width: 100%;
     margin: auto;
-    box-sizing: content-box;
+
 
 }
 
@@ -49,6 +50,7 @@ font-family: 'Open Sans', sans-serif;*/
 .title-section h3 {
     font: 36px 'Raleway', sans-serif;
     color: #212121;
+    text-transform: uppercase;
 }
 
 .title-section h3:after {
@@ -65,11 +67,15 @@ font-family: 'Open Sans', sans-serif;*/
     color: #86878b;
 }
 
+.process-main{
+    margin: 0 -15px;
+}
+
 .process-main .icon {
     width: 70px;
     height: 70px;
     border: 2px solid #ff8b38;
-    margin: auto;
+    margin: 0 auto 24px;
     border-radius: 50%;
     color: #ff8b38;
     font-size: 32px;
@@ -84,6 +90,8 @@ font-family: 'Open Sans', sans-serif;*/
 .process-main h4 {
     font: 700 20px 'Open Sans', sans-serif;
     color: #333333;
+    margin-bottom: 23px;
+
 }
 
 .process-main p {
@@ -91,3 +99,9 @@ font-family: 'Open Sans', sans-serif;*/
     color: #86878b;
 }
 
+.pricing-main{}
+.pricing-main ul.plan-name{}
+.pricing-main li.plan-price{}
+.pricing-main li.plan-deacription{}
+.pricing-main li.plan-field{}
+.pricing-main li.plan-popular{}
